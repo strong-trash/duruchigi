@@ -1,5 +1,5 @@
 .header{
-    background-color: #9459f9;
+    background-color: #a9c6e7;
     color: #fff;
     text-align: center;
     
@@ -7,7 +7,7 @@
 }
 .header ul{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0;
     margin: 0;
     list-style: none;
@@ -18,17 +18,9 @@
     padding: 10px;
     
 }
-.header li:hover {
-    transform: scale(1.2);
-    cursor: pointer;
-    color: #1e6b7b;
-    background: aliceblue;
-}
-.header li:active {
-    transform: scale(1.5);
-}
+
 
 .current{
-    background-color: rgb(179, 115, 239);
+    background-color: rgb(245, 76, 84);
 }
 
